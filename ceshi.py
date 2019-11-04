@@ -10,4 +10,4 @@ def ask_ok(prompt, retries=4, reminder='Please try again!'):
             raise ValueError('invalid user response')
         print(reminder)
 
-ask_ok('输入一个字符串')
+ask_ok('输入首个字符串')
